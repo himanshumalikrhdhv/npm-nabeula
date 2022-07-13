@@ -217,6 +217,7 @@ const FolderListKS = (props) => {
 
     fileInput.click();
   };
+  console.log('structured', structured)
   const handleSaveFolderUploadDialog = () => {
     const clone = [...structured];
     const singleObj = findObject(folderPath, clone);
